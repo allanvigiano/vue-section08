@@ -8,9 +8,16 @@
 
 <script>
     export default {
-        props: [
-            'name',
-        ],
+        props:{
+            name: {
+                type: String,
+                default: function () {
+                    return {
+                        name: 'Função'
+                    }
+                },
+            },
+        },
         data: function () {
             return {
 

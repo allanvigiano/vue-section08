@@ -32,6 +32,7 @@
         methods: {
             changeName() {
                 this.name = "Renta";
+                //this.name = 1; //throw a error.
             }
         }
     }
